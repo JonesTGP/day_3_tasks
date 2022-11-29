@@ -1,0 +1,76 @@
+//2.	Create your own resume data in JSON format
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var myResume = {
+  "basics": {
+    "name": "Jones",
+    "email": "jones@gmail.com",
+    "phone": "+91-9876543210",
+    "url": "https://jones.com",
+    "summary": "A summary of Jones.G",
+    "location": {
+      "address": "21 Krishna Nagar",
+      "postalCode": "6000-126",
+      "city": "Chennai",
+      "countryCode": "India",
+      "region": "Tamil Nadu"
+    },
+    "profiles": [{
+      "network": "Linkedin",
+      "username": "jones",
+      "url": "https://linkedin.com/jones"
+    }]
+  },
+  "work_experience": [{
+    "name": "RAD process systems",
+    "position": "Programmer",
+    "url": "https://RAD.com",
+    "startDate": "2018-01-01",
+    "endDate": "2020-01-01"
+  }],
+  "education": [{
+    "institution": "Anna University",
+    "url": "https://AnnaUniversity.com/",
+    "Degree": "Bachelor",
+    "Course": "Electrical abs Electronics",
+    "year_of_passing": "2016-01-01",
+    "score": "6.0"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Expert"
+  }],
+  "references": [{
+    "name": "Jane",
+    "reference": "Reference…"
+  }],
+  "projects": [{
+    "name": "Project1",
+    "description": "Description…",
+    "highlights": [
+      "Won award at RAD 2016"
+    ]
+  }]
+};
+console.log(myResume)
+  </script>
+</body>
+</html>
